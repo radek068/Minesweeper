@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Label layoutX="95.0" layoutY="29.0" text="Welcome to Minesweeper" />
+      <Label layoutX="53.0" layoutY="46.0" text="please set board dimensions and difficulty" />
+      <Label layoutX="176.0" layoutY="159.0" text="Made by Radosław Staniów" />
+      <Button layoutX="126.0" layoutY="125.0" mnemonicParsing="false" onAction="#checkFields" text="Start Game" />
+      <TextField fx:id="heightTextField" layoutX="46.0" layoutY="87.0" prefHeight="25.0" prefWidth="30.0" />
+      <TextField fx:id="widthTextField" layoutX="95.0" layoutY="87.0" prefHeight="25.0" prefWidth="30.0" />
+      <Label layoutX="44.0" layoutY="70.0" text="height" />
+      <Label layoutX="95.0" layoutY="70.0" text="width" />
+      <ChoiceBox fx:id="difficultyChoiceBox" layoutX="146.0" layoutY="87.0" prefHeight="25.0" prefWidth="138.0" />
+      <Label layoutX="146.0" layoutY="70.0" text="difficulty" />
+   </children>
+</AnchorPane>
